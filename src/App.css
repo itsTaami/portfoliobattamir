@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+@import "bootstrap/dist/css/bootstrap.min.css";
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  z-index: 10;
 }
