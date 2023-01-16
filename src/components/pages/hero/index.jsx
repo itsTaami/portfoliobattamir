@@ -9,8 +9,6 @@ const Hero = () => {
   return (
     <div className={styles.Container}>
       <div className={styles.HeroItem}>
-        <ParticlesComponent />
-
         <div>
           <h1>Hello My name is Battamir</h1>
           <h1>

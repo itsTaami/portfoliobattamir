@@ -4,8 +4,10 @@ import styles from "./style.module.css";
 export default class Project extends Component {
   render() {
     return (
-      <div id="project" className={styles.Container}>
-        Project
+      <div id="about" className={styles.Container}>
+        <h1 style={{ color: "aqua" }}>
+          About <span style={{ color: "red" }}>Me</span>{" "}
+        </h1>
       </div>
     );
   }

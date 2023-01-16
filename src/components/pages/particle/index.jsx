@@ -21,9 +21,19 @@ const ParticlesComponent = () => {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
+        detectRetina: false,
+        fpsLimit: 60,
+        interactivity: {
+          detectsOn: "canvas",
+          events: {
+            onHover: {
+              enable: true,
+            },
+          },
+        },
         background: {
           color: {
-            // value: "#0d47a1",
+            value: "#0d47a1",
           },
         },
         fullScreen: {

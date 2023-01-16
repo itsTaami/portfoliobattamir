@@ -3,8 +3,8 @@ import styles from "./style.module.css";
 
 const Skills = () => {
   return (
-    <div id="skills" className={styles.all}>
-      Skills
+    <div id="about" className={styles.Container}>
+      <h1 style={{ color: "aqua" }}>Skill</h1>
     </div>
   );
 };

@@ -1,6 +1,9 @@
-/* .Container {
-  width: 100%;
-} */
 .Container {
-  z-index: 1000;
+  width: 100%;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
 }
