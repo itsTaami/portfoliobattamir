@@ -26,7 +26,7 @@ const Footer = () => {
             style={{ height: 40, width: 40 }}
           />
           <SocialIcon
-            network="linkedin"
+            network="email"
             bgColor="#ffff"
             style={{ height: 40, width: 40 }}
           />

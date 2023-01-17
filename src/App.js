@@ -10,6 +10,7 @@ import About from "./components/pages/about";
 import ParticlesComponent from "./components/pages/particle";
 import { Routes, Route } from "react-router-dom";
 import Footer from "./components/footer";
+import Test from "./components/turshilt";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      {/* <Test/> */}
     </div>
   );
 }
