@@ -5,9 +5,7 @@ export default class Project extends Component {
   render() {
     return (
       <div id="about" className={styles.Container}>
-        <h1 style={{ color: "aqua" }}>
-          About <span style={{ color: "red" }}>Me</span>{" "}
-        </h1>
+        <h1 style={{ color: "aqua" }}>Project</h1>
       </div>
     );
   }

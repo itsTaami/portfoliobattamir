@@ -1,6 +1,6 @@
 .Container {
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,14 +17,37 @@
 
   h1 {
     font-size: 50px;
-    color: aqua;
+    color: #10e956;
   }
 }
 
+.border {
+  position: relative;
+  width: 520px;
+  height: 520px;
+  background-image: conic-gradient(#10e956, #1e2128, #0c8c34, #021709);
+  border-radius: 50%;
+  animation-timing-function: linear;
+  animation-name: anime1;
+  animation-duration: 2s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+
 .ImgContainer {
+  position: absolute;
   max-width: 500px;
   height: 500px;
   border-radius: 50%;
+}
+
+@keyframes anime1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .ImgContainer > img {

@@ -12,21 +12,26 @@ const NavbarMenu = () => {
     <div className={styles.Container}>
       <Navbar collapseOnSelect expand="lg" className={styles.navbar}>
         <Navbar.Brand className="mx-5 text-white">
-          <Link to="/home" className=" text-white text-decoration-none fs-2">
-            <h2>Portofolio</h2>
+          <Link to="/" className=" text-white text-decoration-none fs-2">
+            <h2 style={{ color: "#10e956" }}>Portfolio</h2>
           </Link>
         </Navbar.Brand>
 
         <Nav className="justify-content-around me-5 w-25">
           <Nav.Link className=" text-center">
-            <Link to="/about" className=" text-white text-decoration-none fs-5">
+            <Link
+              to="/about"
+              style={{ color: "#10e956" }}
+              className="  text-decoration-none fs-5"
+            >
               About
             </Link>
           </Nav.Link>
           <Nav.Link className=" text-center">
             <Link
               to="/skills"
-              className=" text-white text-decoration-none fs-5"
+              className="text-decoration-none fs-5"
+              style={{ color: "#10e956" }}
             >
               Skills
             </Link>
@@ -34,7 +39,8 @@ const NavbarMenu = () => {
           <Nav.Link className=" text-center">
             <Link
               to="/project"
-              className=" text-white text-decoration-none fs-5"
+              style={{ color: "#10e956" }}
+              className="  text-decoration-none fs-5"
             >
               Project
             </Link>
@@ -42,7 +48,8 @@ const NavbarMenu = () => {
           <Nav.Link className=" text-center">
             <Link
               to="/contact"
-              className=" text-white text-decoration-none fs-5"
+              style={{ color: "#10e956" }}
+              className="  text-decoration-none fs-5"
             >
               Contact
             </Link>

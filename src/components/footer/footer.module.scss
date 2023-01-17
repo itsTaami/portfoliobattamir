@@ -1,0 +1,25 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 5vh;
+  align-items: center;
+  h4 {
+    color: white;
+  }
+  .items {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .icons {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+  }
+}

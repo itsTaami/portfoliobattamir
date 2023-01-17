@@ -33,7 +33,7 @@ const ParticlesComponent = () => {
         },
         background: {
           color: {
-            value: "#0d47a1",
+            value: "#1e2128",
           },
         },
         fullScreen: {
@@ -67,7 +67,7 @@ const ParticlesComponent = () => {
 
         particles: {
           color: {
-            value: "#ff0000",
+            value: "#10e956",
           },
           links: {
             color: "#00ffff",
@@ -75,9 +75,6 @@ const ParticlesComponent = () => {
             enable: true,
             opacity: 0.5,
             width: 1,
-          },
-          collisions: {
-            enable: true,
           },
           move: {
             directions: "none",

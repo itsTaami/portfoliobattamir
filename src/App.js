@@ -9,20 +9,21 @@ import Contact from "./components/pages/contact";
 import About from "./components/pages/about";
 import ParticlesComponent from "./components/pages/particle";
 import { Routes, Route } from "react-router-dom";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <div className="App">
       <ParticlesComponent />
       <NavbarMenu />
-
       <Routes>
-        <Route path="/home" element={<Hero />} />
+        <Route path="/" element={<Hero />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
