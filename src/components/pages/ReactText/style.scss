@@ -1,0 +1,80 @@
+.Ctext {
+  position: relative;
+  width: 400px;
+  height: 400px;
+
+  background-color: transparent;
+  border-radius: 50%;
+  animation-timing-function: linear;
+  animation-name: anime1;
+  animation-duration: 10s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  margin-right: 300px;
+}
+@keyframes anime1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+// .background {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   width: 100%;
+//   height: 50vh;
+//   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU");
+//   background-repeat: no-repeat;
+//   animation-name: anime2;
+// }
+
+.Font {
+  font-size: 20px;
+}
+.body {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+}
+.img img {
+  width: 200px;
+  height: 200px;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  // background: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg");
+  margin-right: 300px;
+  position: absolute;
+  z-index: 1000;
+  bottom: 270px;
+  right: 100px;
+  animation-name: anime2;
+  animation-duration: 15s;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes anime2 {
+  0% {
+    background: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg");
+  }
+  25% {
+    background: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg");
+  }
+  50% {
+    background: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg");
+  }
+  75% {
+    background: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg");
+  }
+  100% {
+    background: url("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg");
+  }
+}

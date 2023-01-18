@@ -4,10 +4,9 @@
   padding: 0;
   font-family: consolas;
 }
-body {
+.body {
   width: 100%;
-  min-height: 50vh;
-  background-color: white;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +43,7 @@ body {
   color: black;
   animation: rotateText 10s linear infinite;
 }
+
 @keyframes rotateText {
   0% {
     transform: rotate(360deg);
