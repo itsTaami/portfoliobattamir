@@ -17,7 +17,11 @@ const Hero = () => {
             I am{" "}
             <span style={{ color: "#ffff" }}>
               <Typewriter
-                words={["Sleeper", "Gamer", "Software Engineer", "Developer"]}
+                words={[
+                  "Full Stack Developer",
+                  "Graduated from Pinecone",
+                  "Mongolian citizen",
+                ]}
                 loop={false}
               />
             </span>
@@ -38,7 +42,6 @@ const Hero = () => {
             src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
             alt=""
           />
-          
         </div>
       </div>
     </div>
